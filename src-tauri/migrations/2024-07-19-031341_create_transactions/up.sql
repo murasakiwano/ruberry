@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS transactions (
+    id INTEGER NOT NULL PRIMARY KEY,
+    category VARCHAR NOT NULL,
+    title TEXT NOT NULL,
+    amount REAL NOT NULL,
+    date TIMESTAMP NOT NULL
+);
